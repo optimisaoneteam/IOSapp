@@ -14,6 +14,7 @@
 		CA1B7D5F200CF3E100DB05E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1B7D5D200CF3E100DB05E8 /* LaunchScreen.storyboard */; };
 		CA1B7D6A200CF3E100DB05E8 /* IOSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B7D69200CF3E100DB05E8 /* IOSappTests.swift */; };
 		CA1B7D75200CF3E200DB05E8 /* IOSappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B7D74200CF3E200DB05E8 /* IOSappUITests.swift */; };
+		CAA4FFD22010DA3B0029B725 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4FFD12010DA3B0029B725 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CA1B7D70200CF3E200DB05E8 /* IOSappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1B7D74200CF3E200DB05E8 /* IOSappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSappUITests.swift; sourceTree = "<group>"; };
 		CA1B7D76200CF3E200DB05E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA4FFD12010DA3B0029B725 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CA1B7D5B200CF3E100DB05E8 /* Assets.xcassets */,
 				CA1B7D5D200CF3E100DB05E8 /* LaunchScreen.storyboard */,
 				CA1B7D60200CF3E100DB05E8 /* Info.plist */,
+				CAA4FFD12010DA3B0029B725 /* RegisterViewController.swift */,
 			);
 			path = IOSapp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA4FFD22010DA3B0029B725 /* RegisterViewController.swift in Sources */,
 				CA1B7D57200CF3E100DB05E8 /* ViewController.swift in Sources */,
 				CA1B7D55200CF3E100DB05E8 /* AppDelegate.swift in Sources */,
 			);
