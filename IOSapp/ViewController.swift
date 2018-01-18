@@ -20,10 +20,8 @@ class ViewController: UIViewController  {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var outText: UILabel!
-    
-    @IBAction func buttonPrincipal(_ sender: AnyObject) {
-        outText.text = "HOLA MUNDO"
+    override func viewDidAppear(_ animated: Bool) {
+        self.performSegue(withIdentifier: "loginView", sender: self)
     }
     
 }
